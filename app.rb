@@ -24,7 +24,7 @@ class App < Sinatra::Base
     @num1 * @num2 =  @product
     @solution =  params[:multiply]
     "#{product}"
-  end 
+  end
 
 
 
