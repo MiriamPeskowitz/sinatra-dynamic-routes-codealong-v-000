@@ -25,4 +25,9 @@ class App < Sinatra::Base
     "#{product}"
   end
 
+  class App
+    get '/' do
+      "Hello World"
+    end
+
 end
