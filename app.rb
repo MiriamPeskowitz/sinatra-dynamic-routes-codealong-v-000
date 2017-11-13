@@ -24,4 +24,7 @@ class App < Sinatra::Base
     @product = params[":sum1"].to_i * params[":sum2.to_i"]
     "#{product}"
   end
+  get '/multiply' do
+    "Hello World"
+  end
 end
