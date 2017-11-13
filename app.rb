@@ -25,4 +25,7 @@ class App < Sinatra::Base
     "#{@product}"
   end
 
+  get '/multiply' do
+     "Hello World"
+   end
 end
