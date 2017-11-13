@@ -1,8 +1,4 @@
 
 
-
-
-
-
 <% @solution =  params[:multiply]%>
 <%= "#{product}" %>
