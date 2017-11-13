@@ -25,6 +25,9 @@ class App < Sinatra::Base
     @solution =  params[:multiply]
     "#{product}"
   end
+  get '/multiply' do
+    "Hello World"
+  end
 
 
 
